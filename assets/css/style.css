@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(133, 116, 116);
+    background-color: rgba(133, 119, 119);
 }
 
 p {
@@ -50,12 +50,9 @@ a {
 
 /* Hero Styles Start */
 .hero {
-    margin-top: 50px;
-    height: 1200px;
+    height: 100px;
     width: 100%;
-    background-image: url("../images/pfp.jpg");
-    background-size: cover;
-    background-position: center;
+    background-color: rgb(93, 94, 196);
 }
 
 .hero h2 {
@@ -75,7 +72,6 @@ a {
 
 /* Content Styles Start */
 .information {
-    margin-top: 50px;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
