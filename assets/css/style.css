@@ -50,15 +50,32 @@ a {
 
 /* Hero Styles Start */
 .hero {
-    height: 500px;
+    margin-top: 50px;
+    height: 1200px;
     width: 100%;
-    margin-bottom: 25px;
+    background-image: url("../images/pfp.jpg");
     background-size: cover;
     background-position: center;
 }
 
+.hero h2 {
+    margin-bottom: 5px;
+    padding: 50px;
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(224, 212, 212);
+    font-size: 36px;
+}
+.hero p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(224, 212, 212);
+    display: inline-block;
+    margin: 25px;
+}
+
 /* Content Styles Start */
 .information {
+    margin-top: 50px;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -73,7 +90,7 @@ a {
 }
 
 .content p {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 /* Content Styles End */
@@ -90,3 +107,15 @@ a {
     font-size: 20px;
 }
 /* Footer Styles End */
+
+/* Media Queries Styles Start */
+@media screen and (max-width: 980px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 575px) {
+  
+}
