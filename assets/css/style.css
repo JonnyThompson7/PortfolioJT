@@ -107,10 +107,15 @@ h2.title  {
     margin: 30px auto;
     text-align: center;
 }
-.card-container {
+.card-container-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-container-row {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-content: center;
 }
 .card {
     height: 365px;
@@ -124,8 +129,12 @@ h2.title  {
     text-align: center;
     border: 5px solid rgb(61, 130, 175);
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
+}
+.card.card-big {
+    height: 365px;
+    width: 700px;
 }
 h5 {
     color: rgb(61, 130, 175);
@@ -139,8 +148,4 @@ h5 {
     line-height: 27px;
     margin-bottom: 25px;
     font-weight: bold;
-}
-.link {
-    font-size: 18px;
-    margin-bottom: 25px;
 }
