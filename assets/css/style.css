@@ -69,6 +69,7 @@ h4 {
     padding: 100px;
     background-color: black;
     border-bottom: 5px solid rgb(61, 130, 175);
+    border-top: 5px solid rgb(61, 130, 175);
 }
 .about-text {
     margin: 30px;
@@ -99,18 +100,17 @@ img {
     width: 100px;
     height: 100px;
 }
-.title h2 {
+h2.title  {
     color: rgb(61, 130, 175);
     font-size: 75px;
     width: 1130px;
     margin: 30px auto;
     text-align: center;
 }
-.box {
+.card-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
-    min-height: 400px;
 }
 .card {
     height: 365px;
@@ -122,6 +122,10 @@ img {
     position: relative;
     overflow: hidden;
     text-align: center;
+    border: 5px solid rgb(61, 130, 175);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 h5 {
     color: rgb(61, 130, 175);
@@ -135,4 +139,8 @@ h5 {
     line-height: 27px;
     margin-bottom: 25px;
     font-weight: bold;
+}
+.link {
+    font-size: 18px;
+    margin-bottom: 25px;
 }
