@@ -149,3 +149,47 @@ h5 {
     margin-bottom: 25px;
     font-weight: bold;
 }
+/* Contact Me Styles Start */
+#contact {
+    background: black;
+    width: 100%;
+    padding: 100px;
+}
+#contact h2 {
+    color: rgb(61, 130, 175);
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#contact p {
+    color: white;
+    text-align: center;
+}
+.contact-link-container {
+    display: flex;
+    justify-content: center;
+}
+.contact-img {
+    margin: 55px;
+}
+.contact-img img {
+    height: 50px;
+    width: 50px;
+}
+/* Footer Styles Start */
+.footer {
+    background: black;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 5px solid rgb(61, 130, 175);
+}
+.footer h2 {
+    color: rgb(61, 130, 175);
+    font-size: 15px;
+    text-align: center;
+}
+.footer p {
+    color: rgb(61, 130, 175);
+    font-size: 15px;
+    text-align: center;
+}
