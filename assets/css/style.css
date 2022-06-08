@@ -3,10 +3,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
-
-/* Page Styles End */
-
 /* Hero Styles Start */
 .hero {
     height: 100vh;
@@ -51,7 +49,7 @@ nav ul li a:hover {
 .content {
     position: absolute;
     top: 50%;
-    left: 8%;
+    left: 10%;
     transform: translateY(-50%);
 }
 h1 {
@@ -64,29 +62,28 @@ h4 {
     letter-spacing: 2px;
     font-size: 25px;
 }
-/* Hero Styles End */
-
-/* Footer Styles Start */
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* About Styles Start */
+.about {
+    height: 500px;
+    width: 100%;
+    padding: 100px;
+    background-color: black;
+}
+.about-text {
+    margin: 30px;
+}
+.about-text h2 {
+    color: rgb(61, 130, 175);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
     text-align: center;
 }
-
-.footer h2 {
-    font-size: 20px;
-}
-/* Footer Styles End */
-
-/* Media Queries Styles Start */
-@media screen and (max-width: 980px) {
-  
-}
-
-@media screen and (max-width: 768px) {
-    
-}
-@media screen and (max-width: 575px) {
-  
+.about-text p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: center;
 }
